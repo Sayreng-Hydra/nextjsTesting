@@ -9,7 +9,7 @@ import ProjectPreview from '../components/project_preview';
 
 const Home: NextPage = () => {
 	return (
-		<div>
+		<div className="text-slate-700">
 			<Header></Header>
 			<Profile></Profile>
 			<div>
