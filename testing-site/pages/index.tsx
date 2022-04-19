@@ -37,6 +37,11 @@ const Home: NextPage = () => {
 
 	return (
 		<div>
+			<Head>
+				<meta charSet="UTF-8" />
+
+				<title>First react app</title>
+			</Head>
 			<Profile></Profile>
 			<div className="mt-4 flex flex-col gap-2">{projectPreviewElements}</div>
 		</div>
