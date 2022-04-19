@@ -10,7 +10,7 @@ export interface ProjectPreviewInterface {
 
 const ProjectPreview = (props: ProjectPreviewInterface) => {
 	return (
-		<div className="flex gap-4">
+		<div className="flex gap-4 bg-slate-200">
 			<div className="relative w-24 h-16">
 				<Image src={props.image} layout="fill" alt="thumbnail"></Image>
 			</div>
