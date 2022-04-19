@@ -6,17 +6,20 @@ import Footer from '../components/footer';
 import Header from '../components/header';
 import Profile from '../components/profile';
 import ProjectPreview from '../components/project_preview';
+import Layout from '../components/layout';
 
 const Home: NextPage = () => {
 	return (
-		<div className="text-slate-700">
-			<Header></Header>
-			<Profile></Profile>
-			<div>
-				<ProjectPreview></ProjectPreview>
+		<Layout>
+			<div className="text-slate-700 flex flex-col gap-6">
+				<Header></Header>
+				<Profile></Profile>
+				<div>
+					<ProjectPreview></ProjectPreview>
+				</div>
+				<Footer></Footer>
 			</div>
-			<Footer></Footer>
-		</div>
+		</Layout>
 	);
 };
 
