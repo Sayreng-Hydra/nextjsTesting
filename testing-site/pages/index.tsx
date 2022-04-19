@@ -10,16 +10,12 @@ import Layout from '../components/layout';
 
 const Home: NextPage = () => {
 	return (
-		<Layout>
-			<div className="text-slate-700 flex flex-col gap-6">
-				<Header></Header>
-				<Profile></Profile>
-				<div>
-					<ProjectPreview></ProjectPreview>
-				</div>
-				<Footer></Footer>
+		<div>
+			<Profile></Profile>
+			<div className="mt-4">
+				<ProjectPreview></ProjectPreview>
 			</div>
-		</Layout>
+		</div>
 	);
 };
 
